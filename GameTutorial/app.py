@@ -7,7 +7,7 @@ pg.display.set_caption("Spacedown") # Defini o nome na barra de titulo da pagina
 drawGroup = pg.sprite.Group() # Cria um grupo para adição de sprites
 
 player = pg.sprite.Sprite(drawGroup) # Insere o sprite ao grupo
-player.image = pg.image.load("img/nave.png") # Adiciona a imagem do sprite
+player.image = pg.image.load("GameTutorial/img/nave.png") # Adiciona a imagem do sprite
 player.image = pg.transform.scale(player.image, [100, 100]) # Modifica o tamanho da imagem
 player.rect = pg.Rect(50, 50, 100, 100) # Defini o tamanho e a posição da imagem
 
