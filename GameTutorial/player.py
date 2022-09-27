@@ -15,3 +15,7 @@ class Player(pg.sprite.Sprite):
       self.rect.x -= 1
     elif keys[pg.K_d]:
       self.rect.x += 1
+    elif keys[pg.K_s]:
+      self.rect.y += 1
+    elif keys[pg.K_w]:
+      self.rect.y -= 1
